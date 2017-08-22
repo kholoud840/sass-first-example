@@ -1,0 +1,27 @@
+@mixin background($url) {
+  background: url($url);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header {
+  padding: 30px 0;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo a {
+    @include background("../images/002-hello-speech-bubble-handmade-chatting-symbol.png");
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+  }
+  .menu {
+    @include background("../images/menu.png");
+    height: 30px;
+    width: 30px;
+    border: none;
+  }
+}

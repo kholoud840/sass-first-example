@@ -1,0 +1,32 @@
+$back-btn-color: #48d2ff;
+$bottom-margin: 30px;
+
+.hero-section {
+  text-align: center;
+  margin: 50px 0;
+
+  .content {
+    width: 600px;
+  }
+  h2 {
+    text-transform: capitalize;
+    font-size: 2.5em;
+    margin-bottom: $bottom-margin;
+  }
+  p {
+    font-size: 1.3em;
+    margin-bottom: $bottom-margin;
+  }
+  a {
+    background: $back-btn-color;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  a:hover {
+    background: $back-btn-color * 0.6;
+  }
+
+}
